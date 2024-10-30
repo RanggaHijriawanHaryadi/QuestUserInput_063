@@ -92,7 +92,7 @@ fun MainScren(
             selectedGenderUser = selectedGender
 
         }) { Text("Simpan") }
-        Card(modifier.size(width = 300.dp, height = 150.dp)){
+        Card(modifier.size(width = 300.dp, height = 200.dp)){
             MainSection(params = "Nama", isiparms = namaUser)
             MainSection(params = "Email", isiparms = emailUser)
             MainSection(params = "Alamat", isiparms = alamatUser)
